@@ -1,0 +1,83 @@
+:root {
+    --blue: #005889;
+}
+
+body {
+    margin: 0;
+    padding: 30px 40px 50px 40px;
+    border-top: 7px var(--blue) solid;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: baseline;
+}
+
+.contact-details div span {
+    display: block;
+}
+
+.contact-details div ul {
+    margin: 0;
+}
+
+.contact-details div a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.color {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+h2 {
+    color: var(--blue);
+}
+.experience li {
+    margin-bottom: 10px;
+}
+.experience li strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.education li > strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.education li p {
+    margin-block: 0;
+    margin-bottom: 10px;
+}
+
+.skills {
+    padding-left: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills > li::before {
+    color: var(--blue);
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -0.5em;
+}
+
+.skills > li ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.leadership li p {
+    margin-block: 0;
+    margin-bottom: 1em;
+}
+
+.achievements li {
+    margin-bottom: 5px;
+}
